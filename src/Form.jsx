@@ -42,7 +42,7 @@ function Form() {
       </section>
       <section>
         <h2>Education</h2>
-        <fieldset>
+        <fieldset className="education">
           <legend>School</legend>
           <div>
             <label htmlFor="schoolName">School</label>

@@ -5,20 +5,22 @@ fieldset {
   box-sizing: border-box;
   padding: 2rem;
   text-align: left;
+  column-gap: 5rem;
 }
 
+fieldset div {
+  display: flex;
+}
+
+.education div:last-child {
+  grid-column: 1 / -1;
+}
 
 label {
-  display: inline-block;
-  width: 78px;
+  width: 80px;
 }
 
-select {
-  min-width: 169.87px; /*Size of input fields found from browser */
+input, select, textarea {
+  flex: 1;
 }
 
-section:nth-of-type(2) fieldset div:last-child {
-  grid-column: 1 / -1;
-  display: grid;
-  margin-right: 2.4rem;
-}
