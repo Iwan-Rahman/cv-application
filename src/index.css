@@ -12,7 +12,7 @@ fieldset div {
   display: flex;
 }
 
-.education div:last-child {
+.education div:last-child,  .experience div:last-child{
   grid-column: 1 / -1;
 }
 
